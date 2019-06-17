@@ -16,26 +16,26 @@ This is a New and Dynamic Desktop Software World where you can combine most of t
 
 You can do this,
 
-![assets/p1.png](assets/p1.png)
+![assets/p1.png](assets/chrome.png)
 
 Or like this,
 
-![assets/p2.png](assets/p2.png)
+![assets/p2.png](assets/chromeapptabpage1.png)
 
 Apply chrome tabs to regular apps.
 
-![assets/p2.png](assets/p2.png)
+![assets/p2.png](assets/app1.png)
 
 Integrate Microsoft.NET into the browser.
 
-![assets/p2.png](assets/p2.png)
+![assets/p2.png](assets/chromeapptabpage2.png)
 
 Integrate Eclipse into your application.
 
-![assets/p2.png](assets/p2.png)
+![assets/p2.png](assets/eclipse1.png)
 
 Integrate your business into Microsoft Office.
 
-![assets/p2.png](assets/p2.png)
+![assets/p2.png](assets/excel3.png)
 
 We believe that we can't fully explain our products with just a few screenshots. It is recommended that you download and experience our [demo program](https://github.com/TangramDev/Tangram/releases).

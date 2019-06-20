@@ -37,7 +37,7 @@ slider:
 
 ![assets/overview2.png](assets/overview2.png)
 
-Welcome to a wonderful Web-Desktop Hybrid Programming World, where you will experience an extended DOM environment for developing desktop software using web-desktop hybrid technology.
+**Welcome to a wonderful Web-Desktop Hybrid Programming World, where you will experience an extended DOM environment for developing desktop software using web-desktop hybrid technology.**
 
 This is a new and dynamic desktop software world where you can combine most of the existing component frameworks, such as .NET, Java, COM, C++, Web, and Office, etc. …
 

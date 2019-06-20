@@ -35,6 +35,7 @@ slider:
 > [Visit our Open Source project](https://github.com/TangramDev)  
 > [Download demo program (A demo program based on C#)](https://github.com/TangramDev/Tangram/releases)
 
+![assets/overview2.png](assets/overview2.png)
 
 Welcome to a wonderful Web-Desktop Hybrid Programming World, where you will experience an extended DOM environment for developing desktop software using web-desktop hybrid technology.
 

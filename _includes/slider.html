@@ -1,0 +1,22 @@
+<div class="{{ include.slides }}">
+  {% for item in page.slider[include.slides] %}
+    <img src="{{ item.image }}" alt="...">
+  {% endfor %}
+</div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.{{ include.slides }}').slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true
+  });
+});
+</script>

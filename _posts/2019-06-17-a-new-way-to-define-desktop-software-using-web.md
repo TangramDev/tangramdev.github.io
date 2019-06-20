@@ -3,6 +3,31 @@ layout: post
 title:  "A New Way to Define Desktop Software using Web!"
 date:   2019-06-17 15:40:00 +0800
 categories: jekyll update
+# https://jekyllcodex.org/without-plugin/slider/
+slider:
+  text_color: white
+  shadow_color: black
+  a1: 
+    - image: /assets/image4.png
+      label:
+    - image: /assets/image5.png
+      label: 
+    - image: /assets/image6.png
+      label: 
+    - image: /assets/image7.png
+      label:
+  a2: 
+    - image: /assets/image9.png
+      label:
+    - image: /assets/image8.png
+      label: 
+  a3: 
+    - image: /assets/image1.png
+      label:
+    - image: /assets/image3.png
+      label: 
+    - image: /assets/image2.png
+      label: 
 ---
 
 > **Quick Links:**  
@@ -19,7 +44,9 @@ In the future, the range of web page would be expanded. The HTML will represent 
 
 In the early period, We attempt to display interface use Microsoft.NET user control or form instead of standard HTML elements.
 
-![assets/p2.png](assets/chromeapptabpage1.png)
+{% if page.slider %}
+  {% include slider.html slides="a1" %}
+{% endif %}
 
 This is a hybrid interface. There are both the standard web page and desktop native components. In the HTML code, you will find a segment of special HTML be used to describe the layout.
 
@@ -27,7 +54,9 @@ This is a hybrid interface. There are both the standard web page and desktop nat
 
 You maybe feel it is another form of web extension (or plugin). Similar NaCl or CEF. Emmm..., Let us go further.
 
-![assets/p2.png](assets/chromeapptabpage2.png)
+{% if page.slider %}
+  {% include slider.html slides="a2" %}
+{% endif %}
 
 This time, we completely abandoned the traditional web page. It almost is a Microsoft.NET Winform window except for the navigation bar and title bar. The interesting point is you can still manipulate this form use HTML. You can change the layout of the user area or add a new icon to the toolbar.
 
@@ -39,20 +68,22 @@ If you are a corporate IT administrator, maybe you can found a new way to distri
 
 Of course, the tab bar and navigation bar is not required. You can completely hide all the browser parts.
 
-![assets/p2.png](assets/app2.png)
+![assets/image10.png](assets/image10.png)
 
 Place the tab bar inside the desktop apps.
 
-![assets/p2.png](assets/app1.png)
+{% if page.slider %}
+  {% include slider.html slides="a3" %}
+{% endif %}
 
 We use Tangram as our codename. Tangram is an ancient oriental art. Produce greater value through the division of labor and combination. In the software world, Tangram hopes to break down the barriers between various technologies and bring more flexibility and continuity to the software.
 
 Moreover, the browser is not our only goal. We have greater ambitions.
 
 Our technology is in Microsoft Office.
-![assets/p2.png](assets/excel3.png)
+![assets/excel.png](assets/excel.png)
 
 Our technology is in Java/Eclipse.
-![assets/p2.png](assets/eclipse1.png)
+![assets/eclipse.png](assets/eclipse.png)
 
 We don't think we can fully explain our products with just a few screenshots. It is recommended that you download and experience our [demo program](https://github.com/TangramDev/Tangram/releases).

@@ -2,7 +2,7 @@
 layout: post
 title:  "A New Way to Define Desktop Software using Web!"
 date:   2019-06-19 18:00:00 +0800
-categories: jekyll update
+categories: default
 # https://jekyllcodex.org/without-plugin/slider/
 slider:
   text_color: white

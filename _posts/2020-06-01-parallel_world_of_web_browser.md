@@ -29,7 +29,7 @@ If we open our brains further, it is even harder to imagine:
 
 When we turn our attention to ordinary application software, it will form a huge contrast with the characteristics of the browser: flexible and clumsy, rich content and functional limitations, network-based access and local loading constraints. Based on web pages, Internet browsers have created a rich web world with simple rules and a limited set of DOM elements. At this point, the field of desktop software is indeed dwarfed. These phenomena are a microcosm of the software industry today. Is there a reasonable solution to compensate for the deviation between the web browser and the application software system?
 
-##Chromium for Application
+## Chromium for Application
 
 Chromium for Application is a runtime architecture for Windows applications that enables developers to support all the functions of Chromium in their own application system. Its essence is to enable developers to reconstruct the main process (Browser process) of Chromium to fully utilize the double advantage of Win32 and Web. The purpose of Chromium for Application is to build a "bridge" between application software and Internet browsers, in order to make up for the lack of the Internet foundation of application software, to ensure that developers can construct application systems that conform to the characteristics of the modern Internet.
 Let's look at a screenshot first:
